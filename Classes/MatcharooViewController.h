@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface MatcharooViewController : UIViewController {
-	UIButton *topLeft;
-	UIButton *topRight;
-	UIButton *bottomLeft;
-	UIButton *bottomRight;
+	UIView *topLeft;
+	UIView *topRight;
+	UIView *bottomLeft;
+	UIView *bottomRight;
 }
 
-@property(nonatomic, retain) IBOutlet UIButton *topLeft;
-@property(nonatomic, retain) IBOutlet UIButton *topRight;
-@property(nonatomic, retain) IBOutlet UIButton *bottomLeft;
-@property(nonatomic, retain) IBOutlet UIButton *bottomRight;
+@property(nonatomic, retain) IBOutlet UIView *topLeft;
+@property(nonatomic, retain) IBOutlet UIView *topRight;
+@property(nonatomic, retain) IBOutlet UIView *bottomLeft;
+@property(nonatomic, retain) IBOutlet UIView *bottomRight;
 
 @end
 

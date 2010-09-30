@@ -30,13 +30,15 @@
 */
 
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	//NSArray *cells = [NSArray arrayWithObjects:topLeft, topRight, bottomLeft, bottomRight, nil];
+	topLeft.backgroundColor = [UIColor blueColor];
+	topRight.backgroundColor = [UIColor redColor];
+	bottomLeft.backgroundColor = [UIColor redColor];
+	bottomRight.backgroundColor = [UIColor blueColor];
 }
-*/
-
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
