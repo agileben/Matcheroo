@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* MatcharooViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MatcharooViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MatcharooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MatcharooViewController.m */; };
+		431F769D12541F1300BEB3E4 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 431F769C12541F1300BEB3E4 /* CellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		28D7ACF70DDB3853001CB0EB /* MatcharooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatcharooViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Matcharoo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matcharoo_Prefix.pch; sourceTree = "<group>"; };
+		431F769B12541F1300BEB3E4 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		431F769C12541F1300BEB3E4 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Matcharoo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Matcharoo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +57,8 @@
 				1D3623250D0F684500981E51 /* MatcharooAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MatcharooViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MatcharooViewController.m */,
+				431F769B12541F1300BEB3E4 /* CellView.h */,
+				431F769C12541F1300BEB3E4 /* CellView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MatcharooAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MatcharooViewController.m in Sources */,
+				431F769D12541F1300BEB3E4 /* CellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,18 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellView.h"
 
 @interface MatcharooViewController : UIViewController {
-	UIView *topLeft;
-	UIView *topRight;
-	UIView *bottomLeft;
-	UIView *bottomRight;
+	CellView *topLeft;
+	CellView *topRight;
+	CellView *bottomLeft;
+	CellView *bottomRight;
 }
 
-@property(nonatomic, retain) IBOutlet UIView *topLeft;
-@property(nonatomic, retain) IBOutlet UIView *topRight;
-@property(nonatomic, retain) IBOutlet UIView *bottomLeft;
-@property(nonatomic, retain) IBOutlet UIView *bottomRight;
+@property(nonatomic, retain) IBOutlet CellView *topLeft;
+@property(nonatomic, retain) IBOutlet CellView *topRight;
+@property(nonatomic, retain) IBOutlet CellView *bottomLeft;
+@property(nonatomic, retain) IBOutlet CellView *bottomRight;
 
 @end
 
