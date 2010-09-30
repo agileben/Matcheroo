@@ -12,7 +12,9 @@
 
 @synthesize topLeft, topRight, bottomLeft, bottomRight;
 
-
+-(void) touchedCell : (CellView *) touchedCell {
+	NSLog(@"matcharoo knows cell touched with colour");
+}
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -33,7 +35,10 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	//NSArray *cells = [NSArray arrayWithObjects:topLeft, topRight, bottomLeft, bottomRight, nil];
+	NSArray *cells = [NSArray arrayWithObjects:topLeft, topRight, bottomLeft, bottomRight, nil];
+	for (CellView *cell in cells) {
+		cell.matchController = self;
+	}
 	topLeft.backgroundColor = [UIColor blueColor];
 	topRight.backgroundColor = [UIColor redColor];
 	bottomLeft.backgroundColor = [UIColor redColor];

@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class MatcharooViewController;
 
 @interface CellView : UIView {
-
+	MatcharooViewController *matchController;
 }
+
+@property (nonatomic, retain) MatcharooViewController *matchController;
 
 @end

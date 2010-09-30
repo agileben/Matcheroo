@@ -21,5 +21,7 @@
 @property(nonatomic, retain) IBOutlet CellView *bottomLeft;
 @property(nonatomic, retain) IBOutlet CellView *bottomRight;
 
+-(void) touchedCell:(CellView *) cell;
+
 @end
 

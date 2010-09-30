@@ -7,10 +7,11 @@
 //
 
 #import "CellView.h"
-
+#import "MatcharooViewController.h"
 
 @implementation CellView
 
+@synthesize matchController;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -29,6 +30,7 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"touched");
+	[self.matchController touchedCell:self];
 	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(150, 200, 450, 50)];
 	label.backgroundColor = [UIColor clearColor];
 	label.font = [UIFont systemFontOfSize:72];
